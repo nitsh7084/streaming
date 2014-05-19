@@ -18,7 +18,6 @@ $video = filter_text($_GET['video']);
 
 
 
-
 ?>
 
 <!DOCTYPE html>
@@ -36,6 +35,7 @@ $video = filter_text($_GET['video']);
 echo '<video preload controls>
 <source src="'.$video.'.mp4" type="video/mp4" />
 <source src="'.$video.'.webm" type="video/webm" />
+<source src="'.$video.'.ogg" type="application/ogg" />
 <object type="application/x-shockwave-flash" data="flvplayer.swf"
 width="854" height="504">
 <param name="allowfullscreen" value="true">
