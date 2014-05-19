@@ -16,6 +16,7 @@ $video = filter_text($_GET['video']);
 
 }
 
+echo $video;
 
 
 ?>
