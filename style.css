@@ -6,6 +6,10 @@ padding:0px;
 src:url('BrandonGrotesqueLight.ttf');
 font-family:'BGLight';
 }
+a{
+color:#333;
+text-decoration:none;
+}
 .container{
 overflow:hidden;
 }
