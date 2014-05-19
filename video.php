@@ -1,6 +1,6 @@
 <?php 
 
-$video = "";
+$video = "nothing";
 
 function filter_text($value){
 $value = mysql_real_escape_string($value);
