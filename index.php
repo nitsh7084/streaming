@@ -19,7 +19,7 @@ All Videos
 
 <div class="video_container">
 <a href="video.php?video=">
-<h2></h2>
+<h2>The Pursuit of Happiness</h2>
 <img src="" class="" alt="" />
 </a>
 </div>
