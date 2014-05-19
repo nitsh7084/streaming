@@ -14,7 +14,7 @@ text-decoration:none;
 overflow:hidden;
 }
 .inner_container{
-padding:14% 32%;
+padding:10% 32%;
 }
 .all_videos{
 width:100%;
@@ -25,6 +25,7 @@ font-family:'BGLight';
 .video_container{
 margin:14px 0px;
 width:100%;
+font-family:'BGLight';
 }
 .video_container img{
 width:100%;
