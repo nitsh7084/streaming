@@ -13,6 +13,15 @@ overflow:hidden;
 padding:14% 32%;
 }
 .all_videos{
-font-size:25px;
+width:100%;
+text-align:center;
+font-size:32px;
 font-family:'BGLight';
+}
+.video_container{
+margin:14px 0px;
+width:100%;
+}
+.video_container img{
+width:100%;
 }
