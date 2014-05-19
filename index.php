@@ -2,6 +2,7 @@
 <html>
 <head>
 <title></title>
+<link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 
 
@@ -9,6 +10,10 @@
 
 
 <div class="container">
+
+<div class="all_videos">
+All Videos
+</div>
 
 <div class="video_container">
 <a href="video.php?video=">
