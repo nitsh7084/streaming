@@ -2,3 +2,17 @@
 margin:0px;
 padding:0px;
 }
+@font-face{
+src:url('BrandonGrotesqueLight.ttf');
+font-family:'BGLight';
+}
+.container{
+overflow:hidden;
+}
+.inner_container{
+padding:14% 32%;
+}
+.all_videos{
+font-size:17px;
+font-family:'BGLight';
+}

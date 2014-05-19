@@ -11,6 +11,8 @@
 
 <div class="container">
 
+<div class="inner_container">
+
 <div class="all_videos">
 All Videos
 </div>
@@ -83,6 +85,7 @@ All Videos
 </a>
 </div>
 
+</div>
 </div>
 
 
