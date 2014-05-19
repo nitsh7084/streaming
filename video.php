@@ -16,7 +16,6 @@ $video = filter_text($_GET['video']);
 
 }
 
-echo $video;
 
 
 ?>
@@ -33,20 +32,17 @@ echo $video;
 <div class="container">
 <?php 
 
-echo '<video preload controls>
+echo '<video id="movie"
+            autoplay 
+            controls
+            loop 
+            preload=auto
+            playbackRate="1"
+            width="800">
 <source src="'.$video.'.mp4" type="video/mp4" />
 <source src="'.$video.'.webm" type="video/webm" />
 <source src="'.$video.'.ogg" type="application/ogg" />
-<object type="application/x-shockwave-flash" data="flvplayer.swf"
-width="854" height="504">
-<param name="allowfullscreen" value="true">
-<param name="allowscriptaccess" value="always">
-<param name="flashvars" value="file='.$video.'.mp4">
-<!--[if IE]><param name="movie" value="flvplayer.swf"><![endif]-->
-<img src="video.jpg" width="854" height="480" alt="Video">
-<p>Your browser can’t play HTML5 video. <a href="video.webm">Download
-it</a> instead.</p>
-</object>
+<embed src="1.mp4" type="application/x-shockwave-flash" width="1024" height="798" allowscriptaccess="always" allowfullscreen="true"></embed>
 </video>';
 ?>
 </div>
