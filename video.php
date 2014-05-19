@@ -35,7 +35,6 @@ $video = filter_text($_GET['video']);
 echo '<video id="movie"
             autoplay 
             controls
-            loop 
             preload=auto
             playbackRate="1"
             width="800">
