@@ -2,17 +2,11 @@
 
 $video = "nothing";
 
-function filter_text($value){
-$value = mysql_real_escape_string($value);
-$value = htmlentities($value);
-$value = stripslashes($value);
-$value = strip_tags($value);
-return $value;
-}
+
 
 if(isset($_GET['video']) && !empty($_GET['video'])){
 
-$video = filter_text($_GET['video']);
+$video = $_GET['video'];
 
 }
 
