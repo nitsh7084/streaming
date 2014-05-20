@@ -32,10 +32,10 @@ echo '<video id="movie"
             preload=auto
             playbackRate="1"
             width="800">
-<source src="'.$video.'.mp4" type="video/mp4" />
-<source src="'.$video.'.webm" type="video/webm" />
-<source src="'.$video.'.ogg" type="application/ogg" />
-<embed src="'.$video.'.mp4" type="application/x-shockwave-flash" width="1024" height="798" allowscriptaccess="always" allowfullscreen="true"></embed>
+<source src="D:/movies/'.$video.'.mp4" type="video/mp4" />
+<source src="D:/movies/'.$video.'.webm" type="video/webm" />
+<source src="D:/movies/'.$video.'.ogg" type="application/ogg" />
+<embed src="D:/movies/'.$video.'.mp4" type="application/x-shockwave-flash" width="1024" height="798" allowscriptaccess="always" allowfullscreen="true"></embed>
 </video>';
 ?>
 </div>
