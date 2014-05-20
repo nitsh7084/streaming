@@ -35,7 +35,7 @@ echo '<video id="movie"
 <source src="'.$video.'.mp4" type="video/mp4" />
 <source src="'.$video.'.webm" type="video/webm" />
 <source src="'.$video.'.ogg" type="application/ogg" />
-<embed src="1.mp4" type="application/x-shockwave-flash" width="1024" height="798" allowscriptaccess="always" allowfullscreen="true"></embed>
+<embed src="'.$video.'.mp4" type="application/x-shockwave-flash" width="1024" height="798" allowscriptaccess="always" allowfullscreen="true"></embed>
 </video>';
 ?>
 </div>
